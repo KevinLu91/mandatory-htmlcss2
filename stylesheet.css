@@ -32,8 +32,13 @@ nav{
 
 img{
   width: 240px;
-  height: 300px;
   margin: 20px;
+  flex-grow: 1;
+
+}
+
+img:hover{
+  transform: scale(1.1);
 }
 
 .selection1{
